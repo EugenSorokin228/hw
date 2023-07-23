@@ -1,6 +1,5 @@
 import Task1
 
-
 def test_is_not_ascii():
     result = Task1.valid_password('абвгдєйке')
     assert result == 'Password Invalid'

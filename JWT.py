@@ -1,5 +1,6 @@
 import jwt
 import datetime
+
 payload = {
     "my_name": "Eugen",
     "password": "123qWE@@",
@@ -20,4 +21,3 @@ def decode_jwt(encoded_jwt_):
     except jwt.exceptions.InvalidSignatureError:
         return False
     return decoded
-
